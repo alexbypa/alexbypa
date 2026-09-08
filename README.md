@@ -1,16 +1,23 @@
-## Hi there 👋
+# Alessandro Chiodo
 
-<!--
-**alexbypa/alexbypa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Senior Backend .NET Developer** — Palermo, Italy
 
-Here are some ideas to get you started:
+20+ years designing and building high-reliability backend systems in C#/.NET: REST APIs, SQL Server performance tuning, asynchronous messaging and CI/CD automation, in regulated and business-critical environments. Here I publish libraries, tools and experiments — with a focus on performance, code quality and AI engineering applied to .NET.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Open source projects
+
+- **[CSharp.Essentials](https://github.com/alexbypa/CSharp.Essentials)** — helper library for C#, published on [NuGet](https://www.nuget.org/packages/CSharpEssentials.LoggerHelper): zero-dependency plugin architecture bootstrapped via `ModuleInitializer` (no reflection scans at startup); HTTP middleware built on `ArrayPool<char>` that avoids ~256 KB of LOH allocations per request
+- **[github-projectpulse-mcp](https://github.com/alexbypa/github-projectpulse-mcp)** — Model Context Protocol (MCP) server in TypeScript
+- **[Csharp.Essentials.Extensions](https://github.com/alexbypa/Csharp.Essentials.Extensions)** — extensions for the CSharp.Essentials ecosystem
+
+## Tech stack
+
+C# · .NET · ASP.NET · SQL Server · PostgreSQL · Redis · EF Core · Dapper · RabbitMQ · Kafka · Docker · Azure DevOps · Elasticsearch · OpenTelemetry · xUnit · TypeScript · MCP · LLM integration
+
+## Technical highlights
+
+- ~25× faster development of new services through a shared core-hub architecture
+- 300 concurrent transactions with 7–8 ms average processing time on SQL Server
+- Simultaneous deployment of ~25 services automated through a custom Azure DevOps extension (Node.js)
+
+📫 alexbypa@gmail.com
