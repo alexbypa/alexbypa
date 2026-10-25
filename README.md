@@ -8,7 +8,7 @@
 
 - **[CSharp.Essentials](https://github.com/alexbypa/CSharp.Essentials)** — helper library for C#, published on [NuGet](https://www.nuget.org/packages/CSharpEssentials.LoggerHelper): zero-dependency plugin architecture bootstrapped via `ModuleInitializer` (no reflection scans at startup); HTTP middleware built on `ArrayPool<char>` that avoids ~256 KB of LOH allocations per request
 - **[github-projectpulse-mcp](https://github.com/alexbypa/github-projectpulse-mcp)** — Model Context Protocol (MCP) server in TypeScript
-- **[Csharp.Essentials.Extensions](https://github.com/alexbypa/Csharp.Essentials.Extensions)** — extensions for the CSharp.Essentials ecosystem
+- **[FlowScheduler](https://github.com/alexbypa/FlowScheduler2)** — Distributed task scheduler with AI-powered advisory routing, RAG pipeline, and configurable agents. Built on .NET 10, Hangfire, Redis, and Gemini/Ollama LLMs.
 
 ## Tech stack
 
